@@ -3,68 +3,69 @@ body {
   font-family: Georgia,Times New Roman,Times,serif;
   font: 11px/1.35 Arial, Helvetica, sans-serif;
   color: #8e8e8e;
-  text-align: left;
+  background-image: url "../img/bg.png" repeat scroll 0 0 #f0ece8 !important;
+  font-family: Georgia,Times New Roman,Times,serif;
 }
 
-/* line 8, ../sass/nechi.scss */
+/* line 9, ../sass/nechi.scss */
 .wraper {
   margin: 0;
   padding: 0;
 }
-/* line 12, ../sass/nechi.scss */
+/* line 13, ../sass/nechi.scss */
 .wraper .page {
   text-align: left;
 }
-/* line 15, ../sass/nechi.scss */
+/* line 16, ../sass/nechi.scss */
 .wraper .page .header {
   position: relative;
   background: #40383b;
   height: 38px;
 }
-/* line 20, ../sass/nechi.scss */
+/* line 21, ../sass/nechi.scss */
 .wraper .page .header .container {
   width: 1016px;
   padding: 0 40px;
   margin: 0 auto;
   background: transparent none repeat scroll 0% 0%;
 }
-/* line 26, ../sass/nechi.scss */
+/* line 27, ../sass/nechi.scss */
 .wraper .page .header .container .row {
   margin-left: -16px;
 }
-/* line 29, ../sass/nechi.scss */
+/* line 30, ../sass/nechi.scss */
 .wraper .page .header .container .row .span11 {
   width: 930px;
 }
-/* line 32, ../sass/nechi.scss */
+/* line 33, ../sass/nechi.scss */
 .wraper .page .header .container .row .span11 .shoppingCart {
   position: relative;
   float: right;
   cursor: pointer;
   padding-top: 8px;
 }
-/* line 38, ../sass/nechi.scss */
+/* line 39, ../sass/nechi.scss */
 .wraper .page .header .container .row .span11 .shoppingCart .header-nav {
   list-style: none;
 }
-/* line 41, ../sass/nechi.scss */
+/* line 42, ../sass/nechi.scss */
 .wraper .page .header .container .row .span11 .shoppingCart .header-nav .shopping_cart {
   cursor: pointer;
   list-style: none;
 }
-/* line 44, ../sass/nechi.scss */
+/* line 45, ../sass/nechi.scss */
 .wraper .page .header .container .row .span11 .shoppingCart .header-nav .shopping_cart a {
   background: none;
   display: inline;
   color: #9c928a;
   text-decoration: none;
 }
-/* line 50, ../sass/nechi.scss */
+/* line 51, ../sass/nechi.scss */
 .wraper .page .header .container .row .span11 .shoppingCart .header-nav .shopping_cart a .top-cart {
   border: 0px;
   margin: 9px 14px 0 0;
 }
-/* line 54, ../sass/nechi.scss */
+/* line 55, ../sass/nechi.scss */
 .wraper .page .header .container .row .span11 .shoppingCart .header-nav .shopping_cart a .top-cart .shop-title {
   display: inline-block;
   font-size: 11px;
@@ -72,61 +73,61 @@ body {
   text-transform: uppercase;
   margin-right: 4px;
 }
-/* line 63, ../sass/nechi.scss */
+/* line 64, ../sass/nechi.scss */
 .wraper .page .header .container .row .span11 .shoppingCart .header-nav .shopping_cart a .top-cart .shop-total {
   white-space: nowrap !important;
   color: #e35d63;
   font-weight: 700;
 }
-/* line 75, ../sass/nechi.scss */
+/* line 76, ../sass/nechi.scss */
 .wraper .page .header .container .row .span11 .top_info {
   float: left;
   margin: 8px 0 0 0;
 }
-/* line 79, ../sass/nechi.scss */
+/* line 80, ../sass/nechi.scss */
 .wraper .page .header .container .row .span11 .top_info .support {
   display: inline-block;
   line-height: 16px;
   margin-left: 6px;
 }
-/* line 84, ../sass/nechi.scss */
+/* line 85, ../sass/nechi.scss */
 .wraper .page .header .container .row .span11 .top_info .support .number {
   font-size: 11px;
   display: inline-block;
   font-weight: bold;
   text-transform: uppercase;
 }
-/* line 97, ../sass/nechi.scss */
+/* line 98, ../sass/nechi.scss */
 .wraper .page .header-container {
   margin: 0 auto;
   position: relative;
   width: 1016px;
 }
-/* line 102, ../sass/nechi.scss */
+/* line 103, ../sass/nechi.scss */
 .wraper .page .header-container .container {
   background: #FFF;
   padding: 0 40px;
   box-shadow: 5px 0px 10px -5px rgba(0, 0, 0, 0.06), -5px 0px 10px -5px rgba(0, 0, 0, 0.06);
 }
-/* line 107, ../sass/nechi.scss */
+/* line 108, ../sass/nechi.scss */
 .wraper .page .header-container .container .header {
   background: #FFF;
 }
-/* line 110, ../sass/nechi.scss */
+/* line 111, ../sass/nechi.scss */
 .wraper .page .header-container .container .header .row {
   margin-left: -16px;
   display: inline-flex;
 }
-/* line 114, ../sass/nechi.scss */
+/* line 115, ../sass/nechi.scss */
 .wraper .page .header-container .container .header .row .span3 {
   width: 242px;
 }
-/* line 117, ../sass/nechi.scss */
+/* line 118, ../sass/nechi.scss */
 .wraper .page .header-container .container .header .row .span3 .logo {
   text-decoration: none !important;
   margin: 20px 0;
 }
-/* line 121, ../sass/nechi.scss */
+/* line 122, ../sass/nechi.scss */
 .wraper .page .header-container .container .header .row .span3 .logo strong {
   position: absolute;
   top: -999em;
@@ -138,67 +139,67 @@ body {
   text-indent: -999em;
   overflow: hidden;
 }
-/* line 134, ../sass/nechi.scss */
+/* line 135, ../sass/nechi.scss */
 .wraper .page .header-container .container .header .row .span3 .logo a {
   color: #9c928a;
   text-decoration: none;
 }
-/* line 138, ../sass/nechi.scss */
+/* line 139, ../sass/nechi.scss */
 .wraper .page .header-container .container .header .row .span3 .logo a img {
   border: 0;
   vertical-align: middle;
   max-width: 100%;
 }
-/* line 148, ../sass/nechi.scss */
+/* line 149, ../sass/nechi.scss */
 .wraper .page .header-container .container .header .row .span6 {
   width: 500px;
 }
-/* line 151, ../sass/nechi.scss */
+/* line 152, ../sass/nechi.scss */
 .wraper .page .header-container .container .header .row .span6 .shop-info {
   margin: 34px 0 0 0;
   text-align: center;
 }
-/* line 155, ../sass/nechi.scss */
+/* line 156, ../sass/nechi.scss */
 .wraper .page .header-container .container .header .row .span6 .shop-info .welcome-to {
   font-size: 10px;
   text-transform: uppercase;
 }
-/* line 161, ../sass/nechi.scss */
+/* line 162, ../sass/nechi.scss */
 .wraper .page .header-container .container .header .row .span6 .shop-info .links {
   font-size: 10px;
   text-transform: uppercase;
   margin: 8px 0 0;
 }
-/* line 166, ../sass/nechi.scss */
+/* line 167, ../sass/nechi.scss */
 .wraper .page .header-container .container .header .row .span6 .shop-info .links .first {
   line-height: 18px;
   display: inline;
 }
-/* line 170, ../sass/nechi.scss */
+/* line 171, ../sass/nechi.scss */
 .wraper .page .header-container .container .header .row .span6 .shop-info .links .first a {
   color: #e35d63;
   text-decoration: none;
   padding: 0 8px 0 7px;
   border-right: 1px solid #afafaf;
 }
-/* line 178, ../sass/nechi.scss */
+/* line 179, ../sass/nechi.scss */
 .wraper .page .header-container .container .header .row .span6 .shop-info .links li {
   line-height: 18px;
   display: inline;
 }
-/* line 182, ../sass/nechi.scss */
+/* line 183, ../sass/nechi.scss */
 .wraper .page .header-container .container .header .row .span6 .shop-info .links li a {
   color: #e35d63;
   text-decoration: none;
   padding: 0 8px 0 7px;
   border-right: 1px solid #afafaf;
 }
-/* line 191, ../sass/nechi.scss */
+/* line 192, ../sass/nechi.scss */
 .wraper .page .header-container .container .header .row .span6 .shop-info .links .last {
   line-height: 18px;
   display: inline;
 }
-/* line 195, ../sass/nechi.scss */
+/* line 196, ../sass/nechi.scss */
 .wraper .page .header-container .container .header .row .span6 .shop-info .links .last a {
   border-right: 0px;
   padding-right: 0 !important;
@@ -206,24 +207,24 @@ body {
   text-decoration: none;
   padding: 0 8px 0 7px;
 }
-/* line 210, ../sass/nechi.scss */
+/* line 211, ../sass/nechi.scss */
 .wraper .page .header-container .container .header .row .span3 {
   width: 242px;
 }
-/* line 213, ../sass/nechi.scss */
+/* line 214, ../sass/nechi.scss */
 .wraper .page .header-container .container .header .row .span3 .store-search {
   margin: 38px 0 0;
 }
-/* line 216, ../sass/nechi.scss */
+/* line 217, ../sass/nechi.scss */
 .wraper .page .header-container .container .header .row .span3 .store-search .searchbox {
   display: inline;
 }
-/* line 219, ../sass/nechi.scss */
+/* line 220, ../sass/nechi.scss */
 .wraper .page .header-container .container .header .row .span3 .store-search .searchbox .form-search {
   background: none repeat scroll 0 0 #FFFFFF;
   position: relative;
 }
-/* line 223, ../sass/nechi.scss */
+/* line 224, ../sass/nechi.scss */
 .wraper .page .header-container .container .header .row .span3 .store-search .searchbox .form-search .search_query_top {
   width: 189px;
   padding: 6px 10px;
@@ -232,7 +233,7 @@ body {
   height: 16px;
   float: left;
 }
-/* line 233, ../sass/nechi.scss */
+/* line 234, ../sass/nechi.scss */
 .wraper .page .header-container .container .header .row .span3 .store-search .searchbox .form-search .button {
   transition: all 0.2s linear;
   border: 0;
@@ -243,4 +244,98 @@ body {
   font: 11px Arial, Helvetica, sans-serif;
   vertical-align: middle;
   color: #8a8a8a;
+}
+/* line 255, ../sass/nechi.scss */
+.wraper .page .header-container .container .nav-container {
+  background: #fff none repeat scroll 0 0;
+  border-bottom: 1px solid #ededed;
+  border-top: 1px solid #ededed;
+  height: 50px;
+}
+/* line 261, ../sass/nechi.scss */
+.wraper .page .header-container .container .nav-container .sf-menu {
+  float: left;
+  line-height: 50px;
+  padding: 0;
+  text-transform: uppercase;
+  list-style: outside none none;
+  margin: 0;
+}
+/* line 269, ../sass/nechi.scss */
+.wraper .page .header-container .container .nav-container .sf-menu li {
+  font-family: "Artifika",sans-serif;
+  display: inline-block;
+  margin-left: 30px;
+}
+/* line 274, ../sass/nechi.scss */
+.wraper .page .header-container .container .nav-container .sf-menu li a {
+  text-decoration: none;
+}
+/* line 281, ../sass/nechi.scss */
+.wraper .page .header-container .container .main-container {
+  background: #fff none repeat scroll 0 0;
+  box-shadow: 5px 0 10px -5px rgba(0, 0, 0, 0.06), -5px 0 10px -5px rgba(0, 0, 0, 0.06);
+  margin: 0 auto;
+  padding: 0 40px;
+  width: 1016px;
+}
+/* line 288, ../sass/nechi.scss */
+.wraper .page .header-container .container .main-container .main {
+  padding: 20px 0 0;
+  margin: 0px;
+}
+/* line 292, ../sass/nechi.scss */
+.wraper .page .header-container .container .main-container .main .col-main {
+  float: none;
+  width: auto;
+}
+/* line 296, ../sass/nechi.scss */
+.wraper .page .header-container .container .main-container .main .col-main .std {
+  margin: 0;
+  padding: 0;
+}
+/* line 301, ../sass/nechi.scss */
+.wraper .page .header-container .container .main-container .main .col-main .std .home .banners.span4 {
+  width: 328px;
+}
+/* line 304, ../sass/nechi.scss */
+.wraper .page .header-container .container .main-container .main .col-main .std .home .banners.span4 .banner {
+  border-radius: 10px;
+  box-shadow: 5px 5px 4px 0 rgba(119, 119, 119, 0.2);
+  display: block;
+  margin-bottom: 16px;
+}
+/* line 310, ../sass/nechi.scss */
+.wraper .page .header-container .container .main-container .main .col-main .std .home .banners.span4 .banner .imgban {
+  border-radius: 6px;
+  border: 0 none;
+  max-width: 100%;
+  vertical-align: middle;
+}
+/* line 320, ../sass/nechi.scss */
+.wraper .page .header-container .container .main-container .main .col-main .std .home .flexslider {
+  background: transparent url("img/loading.gif") no-repeat scroll 50% 50%;
+  border-radius: 6px;
+  box-shadow: 4px 4px 4px 0 rgba(119, 119, 119, 0.1);
+}
+/* line 325, ../sass/nechi.scss */
+.wraper .page .header-container .container .main-container .main .col-main .std .home .flexslider .flex-viewport {
+  border-radius: 5px;
+  max-height: 2000px;
+  transition: all 1s ease 0s;
+}
+/* line 332, ../sass/nechi.scss */
+.wraper .page .header-container .container .main-container .main .col-main .std .home .flexslider .flex-viewport .lides .clone {
+  display: block;
+  float: left;
+  width: 672px;
+}
+/* line 337, ../sass/nechi.scss */
+.wraper .page .header-container .container .main-container .main .col-main .std .home .flexslider .flex-viewport .lides .clone img {
+  border-radius: 6px;
+  box-shadow: 4px 4px 4px 0 rgba(119, 119, 119, 0.1);
+  display: block;
+  border: 0 none;
+  max-width: 100%;
+  vertical-align: middle;
 }
